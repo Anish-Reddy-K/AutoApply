@@ -1,0 +1,9 @@
+- scrape alot of jobs for relavant skills to put in skills section
+
+- train a model to make custom bullet points for the first two jobs
+
+- make an overleaf project with the template
+
+- make a simple frontend to paste job description and then automate insertion of custom points into over leaf
+
+- fill in projects and awards section,

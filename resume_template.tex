@@ -1,0 +1,242 @@
+% --- CONFIG ---
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[normalem]{ulem}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+% Font
+\usepackage[default]{sourcesanspro}
+% ----
+\hypersetup{pdfborder = 0 0 0}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% ----------------------------
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Anish Reddy} \\ \vspace{2pt}
+    \small
+    \raisebox{-0.1\height}\faPhone\ 437-557-2209 ~
+    \raisebox{-0.1\height}\faBuilding\ Waterloo, ON ~
+     \href{https://www.linkedin.com/in/anishreddyk/}{\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://www.anishreddy.tech/}{\raisebox{-0.1\height}{\faGlobe} \underline{Portfolio}} ~
+    \href{https://github.com/Anish-Reddy-K/}{\faGithub\ \underline{GitHub}}  ~
+    \href{mailto:anishreddy3456@gmail.com}{\faEnvelope\ 
+    anishreddy3456@gmail.com} ~ 
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------Technical Skills-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Languages and Tools}{: Python, PyTorch, TensorFlow, Langchain, LLamaIndex, Chroma, Docker, Kubernetes, Scikit-learn, Keras, Pandas, Git, Azure, Hugging Face, C/C++, SQL} \\
+     \textbf{Skills}{: Machine Learning, LLMs, NLP, Transformers, Prompt Engineering, Fine-tuning, Retrieval-augmented generation (RAG), Vector Databases and Embedding, Agentic AI, API development, Model evalutaion, LLM Ops, Computer vision, Systems Design}\\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ %--------------------------------
+
+ %-----------EXPERIENCE-----------
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {OCAS}{May 2024 -- Present}
+      {Machine Learning Engineer Intern}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem {%JOB1_POINT1%}
+        \resumeItem {%JOB1_POINT2%}
+        \resumeItem {%JOB1_POINT3%}
+        \resumeItem {%JOB1_POINT4%}
+    \resumeItemListEnd
+    \vspace{0pt}
+
+    \resumeSubheading
+      {Conestoga SMART Centre}{September 2023 -- Present}
+      {AI/ML Researcher}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem {%JOB2_POINT1%}
+        \resumeItem {%JOB2_POINT2%}
+        \resumeItem {%JOB2_POINT3%}
+        \resumeItem {%JOB2_POINT4%}
+    \resumeItemListEnd
+    \vspace{4pt}
+
+    
+    \resumeSubheading
+      {Google Developer Student Clubs}{November 2023 -- Present}
+      {Executive Lead}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem {Conducted 4 AI/ML and data analysis workshops using Tensorflow, Scikit-learn, and PyTorch with 50+ participants}
+        \resumeItem {Facilitated interactive live coding sessions enabling participants to apply and learn machine learning concepts in real-time}
+    \resumeItemListEnd
+    \vspace{0pt}
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+% adjust vscape based on the space you want to leave between each section.
+%------------------------------
+
+%-----------PROJECTS-----------
+\section{Notable Projects \hfill \normalfont\small\mdseries\textit{\href{http://www.anishreddy.tech/projects}{\uline{Project Portfolio}}}}
+    \vspace{-6pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/Anish-Reddy-K/Aqua-Pinion}{\underline{Aqua Pinion}}} $|$ \emph{ Drowning Detection and Prevention Belt - Machine Learning, SVM, Computer Vision, Arduino, Python, C++, CAD}}{}
+          \resumeItemListStart
+            \resumeItem{Created a wearable belt with various sensors and algorithms to detect drowning and autonomously deploy an inflatable tube}
+            \resumeItem{Trained drowning detection models using TensorFlow \& Tiny\_ML to detect drowning with data from various sensors on the belt}
+            \resumeItem{Achieved 95\% accuracy in drowning detection with a custom SVM algorithm, providing a dependable life-saving solution}
+          \resumeItemListEnd
+          \vspace{-16pt}
+          
+    \resumeProjectHeading
+          {\textbf{\href{https://github.com/Anish-Reddy-K/FriendLens}{\underline{Friend Lens}}} $|$ \emph{Hack the 6ix 2023 Winner - Flutter, Python, Machine Learning, Firebase, MongoDB Atlas, Google Photos API}}{}
+          \resumeItemListStart
+            \resumeItem{ Developed an Android app using Flutter and Dart, automating the process of photo sharing through facial detection}
+            \resumeItem{ Created a custom facial detection model using Python and Scikit-Learn, achieving an accuracy of 98\% in facial recognition}
+            \resumeItem{ Integrated Front-end, Back-end, MongoDB, and Google Photos API, creating a fully automated photo-sharing experience}
+          \resumeItemListEnd
+          \vspace{-8pt}
+    
+%-----------------------------
+
+%-----------ACTIVITIES AND LEADERSHIP-----------
+\section{Activities \& Leadership}
+\vspace{-4pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{http://www.conhacks.com}{ConHacks}}{August 2023 -- Present}
+      {President \& Co-founder}{Waterloo, ON}
+      \vspace{0pt}
+      \resumeItemListStart
+        \resumeItem {Initiated, planned, and executed a 130-participant tech hackathon to foster collaboration and innovation among students}
+        \resumeItem {Led the team in organizing a successful hackathon by managing logistics, website, marketing, finance, and sponsorships}
+    \resumeItemListEnd
+    \vspace{8pt}
+    
+    \resumeSubheading
+      {Leet Club}{January 2023 -- Present}
+      {President \& Co-founder}{Waterloo, ON}
+      \vspace{1pt}
+      \resumeItemListStart
+        \resumeItem {Formed an organization of 110+ members focused on problem-solving and communication to create a learning community} 
+        \resumeItem {Executed successful coding events, workshops, and guest sessions for hands-on skill acquisition and knowledge exchange}
+    \resumeItemListEnd
+    \vspace{8pt}
+
+    \resumeSubheading
+      {Computer Science Tutoring}{January 2023 -- Present}
+      {Private Tutor}{Waterloo, ON}
+      \vspace{1pt}
+      \resumeItemListStart
+        \resumeItem {Tutored 12+ students in C, C++, Data Structures and Algorithms, OOP, Operating Systems, Systems Architecture and Discrete Math}
+        \resumeItem {Tailored instruction to individual learning styles, resulting in a significant average grade improvement of over 45\%}
+    \resumeItemListEnd
+    \vspace{0pt}
+
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+% adjust vscape based on the space you want to leave between each section.
+%-------------------------------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{-4pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Conestoga College, Waterloo, ON}{January 2023 -- August 2026 (Expected)}
+      {Bachelor of Computer Science (Honours) }{GPA: 3.84/4}
+      %leave a line after this     
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+%--------------------------------
+
+%-----------Volunteering & Awards-----------
+\section{Awards \& Achievements}
+\vspace{-4pt}
+    \textbf{Hack the 6ix 2023 Winner}{: Friend Lens} $|$
+    \textbf{Google Developer Student Club}{: Executive Lead} $|$
+    \textbf{CS \& IT Program Advisory Committee}{: Member} $|$
+    \textbf{Google Devfest 2023}{: Core Organizer} $|$ 
+    \textbf{ATAL Labs}{: Student Innovator of the Year 2019} $|$ 
+    \textbf{FGSI YASH 2020}{: Gold Medal - Aqua Pinion} $|$ 
+    \textbf{NIRDPR RISaC 2019} {: 1st Place - Aqua Pinion} $|$ 
+    \textbf{Hack the Valley 2023}{: Top 50} $|$ 
+%-------------------------------------------
+
+\end{document}
